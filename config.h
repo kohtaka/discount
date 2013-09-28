@@ -9,6 +9,7 @@
 #define BYTE unsigned char
 #define INITRNG(x) srandom((unsigned int)x)
 #define COINTOSS() (random()&1)
+#define TABSTOP 4
 
 #endif/* CONFIG_D */
 
