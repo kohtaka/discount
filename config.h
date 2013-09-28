@@ -10,6 +10,7 @@
 #define INITRNG(x) srandom((unsigned int)x)
 #define COINTOSS() (random()&1)
 #define TABSTOP 4
+#define WITH_GITHUB_TAGS 1
 
 #endif/* CONFIG_D */
 
